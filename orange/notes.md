@@ -1,0 +1,3 @@
+- Used ORANGE to build a visual workflow for classification.
+- Connected dataset, model, and evaluation components using drag-and-drop widgets.
+- Evaluated model performance using Test & Score.
