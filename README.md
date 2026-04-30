@@ -1,6 +1,6 @@
 # 🧠 Data Mining Lab
 
-A practical implementation of core data mining techniques including classification, clustering, and association rule mining using Python and GUI-based tools.
+A practical implementation of core data mining techniques including classification, clustering, and association rule mining using Python and GUI-based tools- ORANGE and WEKA.
 
 ---
 
@@ -148,6 +148,7 @@ Used WEKA Explorer to perform classification using J48 (Decision Tree).
 * Visualization helps understand patterns
 * Evaluation metrics are crucial
 * Data mining involves both implementation and interpretation
+* ORANGE provides a visual workflow-based approach, while WEKA offers a GUI-based environment for experimenting with machine learning algorithms.
 
 ---
 
@@ -156,6 +157,22 @@ Used WEKA Explorer to perform classification using J48 (Decision Tree).
 * Add more real-world datasets
 * Build a simple UI
 * Compare additional algorithms
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository  
+2. Install requirements:
+   pip install -r requirements.txt  
+3. Open notebooks in Jupyter or VS Code  
+4. Run cells sequentially  
+
+---
+
+## ✨ Conclusion
+
+This project demonstrates practical implementation of core data mining techniques and highlights the importance of choosing appropriate models and evaluation metrics.
 
 ---
 
