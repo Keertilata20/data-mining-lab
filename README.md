@@ -50,8 +50,10 @@ data-mining-lab/
 * Accuracy: **100%**
 
 ### 📊 Output
-
+Decision Tree Confusion Matrix
 ![Iris Dataset Decision Tree Confusion Matrix](results/plots/iris-dataset-decision-tree-confusion-matrix.png)
+
+KNN Confusion Matrix
 ![KNN Confusion Matrix](results/plots/iris-dataset-knn-confusion-matrix.png)
 
 ### 🧠 Insight
