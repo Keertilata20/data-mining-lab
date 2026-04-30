@@ -123,6 +123,10 @@ Used ORANGE to build a visual machine learning pipeline.
 
 Used WEKA Explorer to perform classification using J48 (Decision Tree).
 
+### 📸 Screenshot
+
+![WEKA Output](weka/screenshots/weka_output.png)
+
 
 ---
 
