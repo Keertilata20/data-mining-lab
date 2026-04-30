@@ -1,21 +1,19 @@
 # 🧠 Data Mining Lab
 
-A hands-on project exploring fundamental data mining techniques including classification, clustering, and association rule mining using real and synthetic datasets.
+A practical implementation of core data mining techniques including classification, clustering, and association rule mining using Python and GUI-based tools.
 
 ---
 
 ## 🚀 Project Overview
 
-This repository contains practical implementations of key data mining concepts:
+This project covers:
 
-* 🌸 **Classification (Iris Dataset)**
-* 🧬 **Classification (Breast Cancer Dataset)**
-* 🌀 **Clustering (K-Means)**
-* 🔗 **Association Rule Mining (Apriori Algorithm)**
-* 🟠 **ORANGE Tool Experiments**
-* 🔵 **WEKA Tool Experiments**
-
-Each experiment demonstrates both implementation and interpretation of results.
+*  Classification using Iris dataset
+*  Classification using Breast Cancer dataset
+*  Clustering using K-Means
+*  Association Rule Mining using Apriori
+*  ORANGE (visual ML workflows)
+*  WEKA (GUI-based ML tool)
 
 ---
 
@@ -25,111 +23,136 @@ Each experiment demonstrates both implementation and interpretation of results.
 data-mining-lab/
 │
 ├── notebooks/
-│   ├── iris_classification.ipynb
-│   ├── breast_cancer_classification.ipynb
-│   ├── clustering.ipynb
-│   └── association_rules.ipynb
+│   ├── 01_iris_classification.ipynb
+│   ├── 02_breast_cancer_classification.ipynb
+│   ├── 03_clustering.ipynb
+│   └── 04_association_rules.ipynb
 │
-├── data/
 ├── results/
-├── weka/
+│   └── plots/
+│
 ├── orange/
+│   ├── screenshots/
+│   └── notes.md
+│
+├── weka/
+│   ├── screenshots/
+│   └── notes.md
+│
 └── README.md
 ```
 
 ---
 
-## 🌸 1. Iris Classification
+## 🌸 Iris Classification
 
-* Algorithms: K-Nearest Neighbors, Decision Tree
-* Achieved **100% accuracy** due to well-separated classes
-* Key Insight: Simple datasets allow multiple models to perform equally well
+* Models: KNN, Decision Tree
+* Accuracy: **100%**
+
+### 📊 Output
+
+![Iris Dataset Decision Tree Confusion Matrix](results/plots/iris-dataset-decision-tree-confusion-matrix.png)
+![Iris Dataset KNN Confusion Matrix](results/plots/iris-dataset-knn-confusion-matrix.png)
+
+### 🧠 Insight
+
+The dataset is well-separated, allowing multiple models to achieve perfect accuracy.
 
 ---
 
-## 🧬 2. Breast Cancer Classification
+## 🧬 Breast Cancer Classification
 
-* Algorithm: Logistic Regression
+* Model: Logistic Regression
 * Accuracy: **~96%**
-* Evaluated using:
 
-  * Precision
-  * Recall
-  * F1-score
+### 📊 Output
 
-**Insight:** Accuracy alone is not enough — detailed metrics provide better understanding in real-world problems.
+![Cancer Confusion Matrix](results/plots/cancer-confusion-matrix.png)
 
----
+### 🧠 Insight
 
-## 🌀 3. Clustering (K-Means)
-
-* Used Elbow Method to determine optimal clusters (k = 3)
-* Silhouette Score ≈ **0.55**
-
-**Insight:** Even without labels, data naturally forms meaningful groups.
+Precision, recall, and F1-score provide better understanding than accuracy alone for real-world datasets.
 
 ---
 
-## 🔗 4. Association Rules (Apriori)
+## 🌀 Clustering (K-Means)
 
-* Custom market basket dataset created
-* Discovered rules like:
+* Optimal clusters: **3**
+* Silhouette Score: **~0.55**
 
-  * 🥛 Milk → 🍞 Bread
+### 📊 Output
 
-**Key Metrics:**
+![Clustering Plot](results/plots/clustering-plot.png)
 
-* Support
-* Confidence
-* Lift
+### 🧠 Insight
 
-**Insight:** Association rules reveal hidden relationships useful in recommendation systems and retail analysis.
+Even without labels, natural groupings emerge from the data.
+
+---
+
+## 🔗 Association Rules (Apriori)
+
+* Custom market basket dataset used
+* Example rule:
+
+  *  Milk →  Bread
+
+### 🧠 Insight
+
+Association rules reveal relationships between items and can be applied in recommendation systems.
+
+---
+
+## 🟠 ORANGE Workflow
+
+Used ORANGE to build a visual machine learning pipeline.
+
+### 📸 Screenshot
+
+![Orange Widgets](orange/screenshots/orange-widgets.png)
+![Orange Workflow](orange/screenshots/orange_test_score.png)
+
+---
+
+## 🔵 WEKA Experiment
+
+Used WEKA Explorer to perform classification using J48 (Decision Tree).
+
+### 📸 Screenshot
+
+
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python 🐍
+* Python
 * Pandas, NumPy
-* Matplotlib, Seaborn
 * Scikit-learn
+* Matplotlib, Seaborn
 * Mlxtend
-
----
-
-## 🧪 Tools Explored
-
-### 🟠 ORANGE
-
-* Visual workflow-based data mining
-* Used for classification and clustering experiments
-
-### 🔵 WEKA
-
-* GUI-based machine learning tool
-* Used to compare algorithm performance
+* ORANGE
+* WEKA
 
 ---
 
 ## 📊 Key Learnings
 
-* Different algorithms behave differently depending on dataset complexity
-* Visualization helps in understanding data patterns
-* Evaluation metrics are crucial for real-world applications
-* Data mining is not just about models, but also about interpretation
+* Different algorithms perform differently based on dataset complexity
+* Visualization helps understand patterns
+* Evaluation metrics are crucial
+* Data mining involves both implementation and interpretation
 
 ---
 
-## ✨ Conclusion
+## 📌 Future Improvements
 
-This project demonstrates the practical application of core data mining techniques across multiple datasets and tools. It highlights the importance of both implementation and analytical thinking in extracting meaningful insights from data.
+* Add more real-world datasets
+* Build a simple UI
+* Compare additional algorithms
 
 ---
 
 ## 👨‍💻 Author
 
 * Keerti Lata Choudhury
-
----
-
-## ⭐ If you found this useful, consider giving it a star!
