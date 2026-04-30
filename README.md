@@ -52,7 +52,7 @@ data-mining-lab/
 ### 📊 Output
 
 ![Iris Dataset Decision Tree Confusion Matrix](results/plots/iris-dataset-decision-tree-confusion-matrix.png)
-![Iris Dataset KNN Confusion Matrix](results/plots/iris-dataset-knn-confusion-matrix.png)
+![KNN Confusion Matrix](results/plots/iris-dataset-knn-confusion-matrix.png)
 
 ### 🧠 Insight
 
@@ -109,7 +109,7 @@ Used ORANGE to build a visual machine learning pipeline.
 
 ### 📸 Screenshot
 
-![Orange Widgets](orange/screenshots/orange-widgets.png)
+
 ![Orange Workflow](orange/screenshots/orange_test_score.png)
 
 ---
